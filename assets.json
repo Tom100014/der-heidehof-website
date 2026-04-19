@@ -1,0 +1,158 @@
+{
+  "website": "Hotel Der Heidehof",
+  "description": "4-Sterne Superior Conference & Spa Resort Hotel",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-19",
+  "assets": {
+    "stylesheets": [
+      {
+        "name": "Bootstrap Grid",
+        "file": "css/bootstrap.grid.min.css",
+        "version": "3.3.0",
+        "size": "23KB",
+        "minified": true,
+        "description": "Bootstrap responsive grid system"
+      },
+      {
+        "name": "Main Stylesheet",
+        "file": "css/style.css",
+        "size": "12KB",
+        "description": "Custom styles for Hotel Der Heidehof website"
+      }
+    ],
+    "scripts": [
+      {
+        "name": "jQuery Migration",
+        "file": "js/jquery.mig.min.js",
+        "version": "4.0.0",
+        "minified": true,
+        "description": "jQuery migration plugin for compatibility"
+      },
+      {
+        "name": "Main Script",
+        "file": "js/script.js",
+        "size": "24KB",
+        "description": "Main JavaScript functionality for the website"
+      },
+      {
+        "name": "CMS Logic",
+        "file": "js/logic-cms.min.js",
+        "minified": true,
+        "description": "Content management system logic"
+      },
+      {
+        "name": "Viewlet Logic",
+        "file": "js/logic-viewlet.min.js",
+        "minified": true,
+        "description": "Viewlet component logic"
+      },
+      {
+        "name": "Snipplet Logic",
+        "file": "js/logic-snipplet.min.js",
+        "minified": true,
+        "description": "Snipplet component logic"
+      }
+    ],
+    "images": {
+      "hotel": [
+        {
+          "name": "Hero Banner",
+          "file": "images/hero-banner.jpg",
+          "alt": "Hotel Der Heidehof exterior",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "name": "Hotel Lobby",
+          "file": "images/lobby.jpg",
+          "alt": "Hotel lobby area",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "rooms": [
+        {
+          "name": "Standard Room",
+          "file": "images/room-images/standard-room.jpg",
+          "alt": "Standard double room",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "name": "Deluxe Suite",
+          "file": "images/room-images/deluxe-suite.jpg",
+          "alt": "Deluxe suite with living area",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "spa": [
+        {
+          "name": "Indoor Pool",
+          "file": "images/spa-wellness/pool-indoor.jpg",
+          "alt": "Indoor swimming pool",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "name": "Sauna Area",
+          "file": "images/spa-wellness/sauna-area.jpg",
+          "alt": "Sauna and wellness area",
+          "width": 1280,
+          "height": 960
+        }
+      ],
+      "dining": [
+        {
+          "name": "Restaurant Maxwell",
+          "file": "images/dining/restaurant-maxwell.jpg",
+          "alt": "Restaurant Maxwell dining area",
+          "width": 1280,
+          "height": 960
+        },
+        {
+          "name": "Le Petit Chef",
+          "file": "images/dining/le-petit-chef.jpg",
+          "alt": "Le Petit Chef dinner theater",
+          "width": 1280,
+          "height": 960
+        }
+      ]
+    },
+    "icons": {
+      "location": "images/icons/location.svg",
+      "phone": "images/icons/phone.svg",
+      "email": "images/icons/email.svg",
+      "wifi": "images/icons/wifi.svg",
+      "parking": "images/icons/parking.svg",
+      "restaurant": "images/icons/restaurant.svg",
+      "spa": "images/icons/spa.svg",
+      "meeting": "images/icons/meeting.svg"
+    },
+    "logo": {
+      "full": "images/logo/heidehof-logo.svg",
+      "icon": "images/logo/heidehof-icon.png",
+      "favicon": "images/logo/favicon.ico"
+    }
+  },
+  "externalResources": {
+    "analytics": {
+      "provider": "Matomo",
+      "script": "https://analytics.e-ventis.eu/tool/matomo.js",
+      "description": "Web analytics and tracking"
+    }
+  },
+  "metadata": {
+    "viewport": "width=device-width, initial-scale=1.0",
+    "charset": "UTF-8",
+    "language": "de",
+    "description": "4-Sterne Superior Wellness- und Tagungshotel in Ingolstadt",
+    "keywords": "Hotel, Spa, Wellness, Tagung, Conference, Ingolstadt"
+  },
+  "contact": {
+    "address": "Ingolstädter Straße 121, 85080 Gaimersheim / Ingolstadt",
+    "phone": "+49-8458-64-0",
+    "email": "reservierung@der-heidehof.de",
+    "website": "www.der-heidehof.de"
+  }
+}
